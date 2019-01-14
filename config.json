@@ -1,0 +1,10 @@
+{
+
+  "gemAuthor": "Messente",
+  "gemAuthorEmail": "messente@messente.com",
+  "gemSummary": "Ruby library for Messente Omnichannel API",
+  "gemDescription": "This libraries allows sending messages to various channels such as WhatsApp, Viber and SMS with fallback to backup channels in case of failure.",
+  "gemLicense": "Apache 2.0",
+  "gemVersion": "1.0.0",
+  "gemName": "omnichannel"
+}
