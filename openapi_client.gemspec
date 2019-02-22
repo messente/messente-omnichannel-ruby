@@ -13,18 +13,18 @@ OpenAPI Generator version: 4.0.0-SNAPSHOT
 =end
 
 $:.push File.expand_path("../lib", __FILE__)
-require "omnichannel/version"
+require "openapi_client/version"
 
 Gem::Specification.new do |s|
-  s.name        = "omnichannel"
-  s.version     = Omnichannel::VERSION
+  s.name        = "openapi_client"
+  s.version     = OpenapiClient::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Messente"]
+  s.authors     = ["OpenAPI-Generator"]
   s.email       = ["messente@messente.com"]
   s.homepage    = "https://openapi-generator.tech"
-  s.summary     = "Ruby library for Messente Omnichannel API"
-  s.description = "This libraries allows sending messages to various channels such as WhatsApp, Viber and SMS with fallback to backup channels in case of failure."
-  s.license     = 'Apache 2.0'
+  s.summary     = "Omnichannel API Ruby Gem"
+  s.description = "Messente's API which allows sending messages via various channels with fallback options."
+  s.license     = "Unlicense"
   s.required_ruby_version = ">= 1.9"
 
   s.add_runtime_dependency 'typhoeus', '~> 1.0', '>= 1.0.1'
